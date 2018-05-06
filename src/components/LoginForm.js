@@ -16,6 +16,7 @@ class LoginForm extends Component {
     error: '',
     loading: false
   }
+
   onButtonPress() {
     this.setState({ error: '', loading: true })
     const { email, password } = this.state
